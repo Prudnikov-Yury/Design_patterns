@@ -1,9 +1,10 @@
-import factory.abstract_factory.AbstractFactoryExample
+import singleton.LazyInitializedSingletonExampleTest
 
 fun main(args: Array<String>) {
 //    DecoratorExample().example()
 //    SimpleFactoryExample().example()
-    AbstractFactoryExample().example()
+//    AbstractFactoryExample().example()
+    LazyInitializedSingletonExampleTest().test()
 
 
 
