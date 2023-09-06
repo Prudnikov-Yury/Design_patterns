@@ -1,4 +1,4 @@
-import command.invokers.RemoteLoader
+import composite.MenuTestDrive
 
 fun main(args: Array<String>) {
 //    DecoratorExample().example()
@@ -6,8 +6,8 @@ fun main(args: Array<String>) {
 //    AbstractFactoryExample().example()
 //    LazyInitializedSingletonExampleTest().test()
 //    RemoteControlTest().test()
-
-    RemoteLoader().loadRemotesTest()
+//    RemoteLoader().loadRemotesTest()
+    MenuTestDrive().test()
 
 }
 
