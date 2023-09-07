@@ -1,4 +1,5 @@
 import composite.MenuTestDrive
+import state.GumballMachineTestDrive
 
 fun main(args: Array<String>) {
 //    DecoratorExample().example()
@@ -7,7 +8,7 @@ fun main(args: Array<String>) {
 //    LazyInitializedSingletonExampleTest().test()
 //    RemoteControlTest().test()
 //    RemoteLoader().loadRemotesTest()
-    MenuTestDrive().test()
-
+//    MenuTestDrive().test()
+    GumballMachineTestDrive().test()
 }
 
